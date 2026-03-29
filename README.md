@@ -1,7 +1,7 @@
 # oss-audit-[rollnumber]
 
 **Open Source Software — NGMC Capstone Project**
-**VIT | Course: Open Source Software | Max Marks: 100**
+**VIT | Course: Open Source Software**
 
 ---
 
@@ -9,9 +9,9 @@
 
 | Field | Details |
 |-------|---------|
-| **Name** | [Your Full Name] |
-| **Registration Number** | [Your Reg No] |
-| **Slot** | [Your Slot] |
+| **Name** | Rupesh Yadav |
+| **Registration Number** | 24BCY10166 |
+| **Slot** | B22 |
 | **Chosen Software** | Git — Distributed Version Control System |
 | **License** | GNU General Public License v2 (GPL v2) |
 
@@ -41,7 +41,7 @@ oss-audit-[rollnumber]/
 
 ## Dependencies
 
-All scripts run on **Debian/Ubuntu Linux**. The following must be installed:
+All scripts run on **Ubuntu Linux**. The following must be installed:
 
 ```bash
 sudo apt update
@@ -162,7 +162,6 @@ Interactively asks you three questions and generates a personalised open-source 
 ---
 
 ## Notes for the Evaluator
-
 - All scripts are tested on Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.
 - Scripts use `dpkg` (Debian/Ubuntu) rather than `rpm` (RHEL/Fedora) as the target system is Debian-based.
 - Script 4 includes a retry loop if the log file is not immediately found, and gracefully handles empty files.
